@@ -1,0 +1,16 @@
+# ---- 后端 ----
+backend/target/
+backend/run.log
+backend/*.log
+*.iml
+.idea/
+
+# ---- 前端 ----
+frontend/node_modules/
+frontend/dist/
+frontend/*.log
+frontend/.vite/
+
+# ---- 系统/IDE ----
+.DS_Store
+Thumbs.db
