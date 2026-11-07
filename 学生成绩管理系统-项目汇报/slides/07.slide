@@ -1,0 +1,36 @@
+<Slide style={{ padding: 60, fontFamily: '"Microsoft YaHei", Arial, sans-serif', background: '#FFFFFF' }}>
+  <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+    <Box style={{ width: 6, height: 34, background: '#2563EB', borderRadius: 3 }} />
+    <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#1E293B' }}>功能模块概览</Text>
+  </Box>
+  <Box style={{ width: '100%', height: 1, background: '#E2E8F0', marginTop: 16 }} />
+
+  <Box style={{ flexDirection: 'row', gap: 24, marginTop: 36, flex: 1 }}>
+    <Box style={{ flex: 1, background: '#EFF6FF', borderRadius: 12, padding: 24, border: '1px solid #BFDBFE' }}>
+      <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#2563EB' }}>学生管理</Text>
+      <Text style={{ fontSize: 17, color: '#475569', marginTop: 12, lineHeight: 1.5 }}>学生信息增删改查、分页与按姓名/学号模糊搜索。</Text>
+    </Box>
+    <Box style={{ flex: 1, background: '#EFF6FF', borderRadius: 12, padding: 24, border: '1px solid #BFDBFE' }}>
+      <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#2563EB' }}>课程管理</Text>
+      <Text style={{ fontSize: 17, color: '#475569', marginTop: 12, lineHeight: 1.5 }}>课程信息维护，含课程编号、名称、学分等字段。</Text>
+    </Box>
+  </Box>
+  <Box style={{ flexDirection: 'row', gap: 24, marginTop: 24, flex: 1 }}>
+    <Box style={{ flex: 1, background: '#EFF6FF', borderRadius: 12, padding: 24, border: '1px solid #BFDBFE' }}>
+      <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#2563EB' }}>成绩管理</Text>
+      <Text style={{ fontSize: 17, color: '#475569', marginTop: 12, lineHeight: 1.5 }}>录入/修改成绩，关联学生与课程，防重复录入。</Text>
+    </Box>
+    <Box style={{ flex: 1, background: '#EFF6FF', borderRadius: 12, padding: 24, border: '1px solid #BFDBFE' }}>
+      <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#2563EB' }}>统计报表</Text>
+      <Text style={{ fontSize: 17, color: '#475569', marginTop: 12, lineHeight: 1.5 }}>概览、学生平均分排名、课程及格率等聚合统计。</Text>
+    </Box>
+  </Box>
+  <Box style={{ background: '#1E293B', borderRadius: 10, padding: 18, marginTop: 24 }}>
+    <Text style={{ fontSize: 18, color: '#FFFFFF' }}>结论：四个模块形成「录入 → 关联 → 统计」闭环，覆盖教务管理核心流程。</Text>
+  </Box>
+
+  <Box style={{ position: 'absolute', bottom: 30, left: 60, right: 60, flexDirection: 'row', justifyContent: 'space-between' }}>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>学生成绩管理系统 · 课程设计汇报</Text>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>07 / 12</Text>
+  </Box>
+</Slide>

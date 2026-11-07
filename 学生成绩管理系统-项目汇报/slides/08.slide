@@ -1,0 +1,30 @@
+<Slide style={{ padding: 60, fontFamily: '"Microsoft YaHei", Arial, sans-serif', background: '#FFFFFF' }}>
+  <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+    <Box style={{ width: 6, height: 34, background: '#2563EB', borderRadius: 3 }} />
+    <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#1E293B' }}>核心功能演示 · 学生管理</Text>
+  </Box>
+  <Box style={{ width: '100%', height: 1, background: '#E2E8F0', marginTop: 16 }} />
+
+  <Box style={{ flexDirection: 'row', gap: 32, marginTop: 28, flex: 1 }}>
+    <Box style={{ width: '62%', borderRadius: 12, overflow: 'hidden', border: '1px solid #E2E8F0' }}>
+      <Image src="assets/screen_student.png" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+    </Box>
+    <Box style={{ flex: 1, flexDirection: 'column', justifyContent: 'center', gap: 18 }}>
+      <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#1E293B' }}>页面能力</Text>
+      <Box style={{ gap: 12, flexDirection: 'column' }}>
+        <Text style={{ fontSize: 18, color: '#475569', lineHeight: 1.5 }}>· 表格分页展示全部学生</Text>
+        <Text style={{ fontSize: 18, color: '#475569', lineHeight: 1.5 }}>· 按姓名 / 学号模糊搜索</Text>
+        <Text style={{ fontSize: 18, color: '#475569', lineHeight: 1.5 }}>· 新增 / 编辑 / 删除操作</Text>
+        <Text style={{ fontSize: 18, color: '#475569', lineHeight: 1.5 }}>· 删除时级联清除该生成绩</Text>
+      </Box>
+      <Box style={{ background: '#FFF7ED', borderRadius: 10, padding: 16, border: '1px solid #FED7AA' }}>
+        <Text style={{ fontSize: 16, color: '#9A3412', lineHeight: 1.5 }}>演示中已用「张」做姓名搜索，结果即时刷新。</Text>
+      </Box>
+    </Box>
+  </Box>
+
+  <Box style={{ position: 'absolute', bottom: 30, left: 60, right: 60, flexDirection: 'row', justifyContent: 'space-between' }}>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>学生成绩管理系统 · 课程设计汇报</Text>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>08 / 12</Text>
+  </Box>
+</Slide>

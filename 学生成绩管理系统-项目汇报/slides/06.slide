@@ -1,0 +1,56 @@
+<Slide style={{ padding: 60, fontFamily: '"Microsoft YaHei", Arial, sans-serif', background: '#FFFFFF' }}>
+  <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+    <Box style={{ width: 6, height: 34, background: '#2563EB', borderRadius: 3 }} />
+    <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#1E293B' }}>数据库设计</Text>
+  </Box>
+  <Box style={{ width: '100%', height: 1, background: '#E2E8F0', marginTop: 16 }} />
+
+  <Box style={{ marginTop: 28, flex: 1 }}>
+    <Table
+      style={{ width: '100%', height: '100%' }}
+      defaultTextStyle={{ fontSize: 17, textAlign: 'center', color: '#1E293B' }}
+      defaultCellStyle={{
+        border: {
+          left: { width: 1, color: '#E2E8F0' },
+          right: { width: 1, color: '#E2E8F0' },
+          top: { width: 1, color: '#E2E8F0' },
+          bottom: { width: 1, color: '#E2E8F0' },
+        },
+      }}
+      cells={[
+        [
+          { text: '数据表', textStyle: { bold: true, color: '#FFFFFF' }, cellStyle: { background: { color: '#2563EB' } } },
+          { text: '主键', textStyle: { bold: true, color: '#FFFFFF' }, cellStyle: { background: { color: '#2563EB' } } },
+          { text: '核心字段', textStyle: { bold: true, color: '#FFFFFF' }, cellStyle: { background: { color: '#2563EB' } } },
+          { text: '关联关系', textStyle: { bold: true, color: '#FFFFFF' }, cellStyle: { background: { color: '#2563EB' } } },
+        ],
+        [
+          { text: 'student', textStyle: { bold: true } },
+          'id',
+          'student_no, name, gender, age, class_name',
+          { text: '1 : N → score', textStyle: { color: '#2563EB', bold: true } },
+        ],
+        [
+          { text: 'course', textStyle: { bold: true }, cellStyle: { background: { color: '#F8FAFC' } } },
+          { text: 'id', cellStyle: { background: { color: '#F8FAFC' } } },
+          { text: 'course_no, name, credit', cellStyle: { background: { color: '#F8FAFC' } } },
+          { text: '1 : N → score', textStyle: { color: '#2563EB', bold: true }, cellStyle: { background: { color: '#F8FAFC' } } },
+        ],
+        [
+          { text: 'score', textStyle: { bold: true } },
+          'id',
+          'student_id, course_id, score, exam_time',
+          { text: '唯一(student_id, course_id)', textStyle: { color: '#F59E0B', bold: true } },
+        ],
+      ]}
+    />
+  </Box>
+  <Box style={{ background: '#1E293B', borderRadius: 10, padding: 18, marginTop: 20 }}>
+    <Text style={{ fontSize: 18, color: '#FFFFFF' }}>三张表经 score 形成多对多关系；删除学生/课程时级联清空其成绩，保证数据一致性。</Text>
+  </Box>
+
+  <Box style={{ position: 'absolute', bottom: 30, left: 60, right: 60, flexDirection: 'row', justifyContent: 'space-between' }}>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>学生成绩管理系统 · 课程设计汇报</Text>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>06 / 12</Text>
+  </Box>
+</Slide>

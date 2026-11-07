@@ -1,0 +1,45 @@
+<Slide style={{ padding: 60, fontFamily: '"Microsoft YaHei", Arial, sans-serif', background: '#FFFFFF' }}>
+  <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+    <Box style={{ width: 6, height: 34, background: '#2563EB', borderRadius: 3 }} />
+    <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#1E293B' }}>关键技术点</Text>
+  </Box>
+  <Box style={{ width: '100%', height: 1, background: '#E2E8F0', marginTop: 16 }} />
+
+  <Box style={{ flexDirection: 'row', marginTop: 30, gap: 28, flex: 1 }}>
+    <Box style={{ width: '30%', background: '#2563EB', borderRadius: 12, padding: 28, justifyContent: 'center' }}>
+      <Text style={{ fontSize: 48, fontWeight: 'bold', color: '#FFFFFF' }}>6</Text>
+      <Text style={{ fontSize: 20, color: '#DBEAFE', marginTop: 10 }}>个工程实践要点</Text>
+    </Box>
+    <Box style={{ flex: 1, flexDirection: 'column', gap: 14, justifyContent: 'center' }}>
+      <Box style={{ flexDirection: 'row', gap: 16, alignItems: 'center' }}>
+        <Box style={{ width: 8, height: 8, borderRadius: 4, background: '#F59E0B' }} />
+        <Text style={{ fontSize: 18, color: '#1E293B' }}><span style={{ fontWeight: 'bold' }}>统一响应体</span>：Result&lt;T&gt; 规范 {code,msg,data}</Text>
+      </Box>
+      <Box style={{ flexDirection: 'row', gap: 16, alignItems: 'center' }}>
+        <Box style={{ width: 8, height: 8, borderRadius: 4, background: '#F59E0B' }} />
+        <Text style={{ fontSize: 18, color: '#1E293B' }}><span style={{ fontWeight: 'bold' }}>分页拦截器</span>：MyBatis-Plus 自动分页</Text>
+      </Box>
+      <Box style={{ flexDirection: 'row', gap: 16, alignItems: 'center' }}>
+        <Box style={{ width: 8, height: 8, borderRadius: 4, background: '#F59E0B' }} />
+        <Text style={{ fontSize: 18, color: '#1E293B' }}><span style={{ fontWeight: 'bold' }}>级联删除</span>：删学生/课程同步清成绩</Text>
+      </Box>
+      <Box style={{ flexDirection: 'row', gap: 16, alignItems: 'center' }}>
+        <Box style={{ width: 8, height: 8, borderRadius: 4, background: '#F59E0B' }} />
+        <Text style={{ fontSize: 18, color: '#1E293B' }}><span style={{ fontWeight: 'bold' }}>唯一约束</span>：同生同课不可重复录入</Text>
+      </Box>
+      <Box style={{ flexDirection: 'row', gap: 16, alignItems: 'center' }}>
+        <Box style={{ width: 8, height: 8, borderRadius: 4, background: '#F59E0B' }} />
+        <Text style={{ fontSize: 18, color: '#1E293B' }}><span style={{ fontWeight: 'bold' }}>全局 CORS</span>：解决前后端跨域</Text>
+      </Box>
+      <Box style={{ flexDirection: 'row', gap: 16, alignItems: 'center' }}>
+        <Box style={{ width: 8, height: 8, borderRadius: 4, background: '#F59E0B' }} />
+        <Text style={{ fontSize: 18, color: '#1E293B' }}><span style={{ fontWeight: 'bold' }}>日期格式</span>：Jackson 统一 yyyy-MM-dd HH:mm:ss</Text>
+      </Box>
+    </Box>
+  </Box>
+
+  <Box style={{ position: 'absolute', bottom: 30, left: 60, right: 60, flexDirection: 'row', justifyContent: 'space-between' }}>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>学生成绩管理系统 · 课程设计汇报</Text>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>10 / 12</Text>
+  </Box>
+</Slide>

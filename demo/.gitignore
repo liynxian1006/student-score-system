@@ -1,0 +1,6 @@
+# 转换用的 ffmpeg 二进制（体积大，按需重新下载，勿提交）
+ffmpeg.exe
+ffmpeg.gz
+
+# 录制脚本依赖（playwright 等，体积大，勿提交）
+node_modules/

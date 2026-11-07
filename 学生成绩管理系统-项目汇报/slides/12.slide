@@ -1,0 +1,13 @@
+<Slide style={{ padding: 60, fontFamily: '"Microsoft YaHei", Arial, sans-serif', background: '#FFFFFF' }}>
+  <Box style={{ position: 'absolute', right: 0, top: 0, width: 220, height: 220, background: 'linear-gradient(135deg, #2563EB 0%, transparent 100%)', opacity: 0.12 }} />
+  <Box style={{ height: '100%', justifyContent: 'center', alignItems: 'center' }}>
+    <Text style={{ fontSize: 72, fontWeight: 'bold', color: '#1E293B' }}>谢谢观看</Text>
+    <Box style={{ width: 120, height: 4, background: '#F59E0B', marginTop: 24, borderRadius: 2 }} />
+    <Text style={{ fontSize: 26, color: '#64748B', marginTop: 28 }}>请老师批评指正</Text>
+    <Box style={{ flexDirection: 'row', gap: 40, marginTop: 56 }}>
+      <Text style={{ fontSize: 18, color: '#94A3B8' }}>课程：JavaWeb 开发技术</Text>
+      <Text style={{ fontSize: 18, color: '#94A3B8' }}>日期：2026.11</Text>
+      <Text style={{ fontSize: 18, color: '#94A3B8' }}>汇报人：__________</Text>
+    </Box>
+  </Box>
+</Slide>

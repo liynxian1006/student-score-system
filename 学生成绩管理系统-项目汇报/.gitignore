@@ -1,0 +1,8 @@
+# PPT 生成依赖（体积大，勿提交）
+node_modules/
+
+# slidep 内部状态
+.slidep/
+
+# 生成中间产物（最终成品是 学生成绩管理系统-项目汇报.pptx）
+output.pptx

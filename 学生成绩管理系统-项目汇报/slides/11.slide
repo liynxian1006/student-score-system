@@ -1,0 +1,30 @@
+<Slide style={{ padding: 60, fontFamily: '"Microsoft YaHei", Arial, sans-serif', background: '#FFFFFF' }}>
+  <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+    <Box style={{ width: 6, height: 34, background: '#2563EB', borderRadius: 3 }} />
+    <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#1E293B' }}>项目总结与收获</Text>
+  </Box>
+  <Box style={{ width: '100%', height: 1, background: '#E2E8F0', marginTop: 16 }} />
+
+  <Box style={{ flexDirection: 'row', gap: 24, marginTop: 36, flex: 1 }}>
+    <Box style={{ flex: 1, background: '#EFF6FF', borderRadius: 12, padding: 26, border: '1px solid #BFDBFE' }}>
+      <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#2563EB' }}>已掌握能力</Text>
+      <Text style={{ fontSize: 17, color: '#475569', marginTop: 14, lineHeight: 1.6 }}>SpringBoot 工程搭建、MyBatis-Plus 持久层、Vue3 组件化开发、RESTful 接口设计与联调。</Text>
+    </Box>
+    <Box style={{ flex: 1, background: '#EFF6FF', borderRadius: 12, padding: 26, border: '1px solid #BFDBFE' }}>
+      <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#2563EB' }}>工程亮点</Text>
+      <Text style={{ fontSize: 17, color: '#475569', marginTop: 14, lineHeight: 1.6 }}>统一响应、分页、级联删除、唯一约束等细节处理完备，代码可直接运行并演示。</Text>
+    </Box>
+    <Box style={{ flex: 1, background: '#EFF6FF', borderRadius: 12, padding: 26, border: '1px solid #BFDBFE' }}>
+      <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#2563EB' }}>可扩展方向</Text>
+      <Text style={{ fontSize: 17, color: '#475569', marginTop: 14, lineHeight: 1.6 }}>增加登录鉴权、按班级/课程筛选、导出 Excel、接入 ECharts 可视化图表。</Text>
+    </Box>
+  </Box>
+  <Box style={{ background: '#1E293B', borderRadius: 10, padding: 18, marginTop: 26 }}>
+    <Text style={{ fontSize: 18, color: '#FFFFFF' }}>一句话总结：从零完成了一个可运行、可演示、结构规范的全栈 JavaWeb 课程项目。</Text>
+  </Box>
+
+  <Box style={{ position: 'absolute', bottom: 30, left: 60, right: 60, flexDirection: 'row', justifyContent: 'space-between' }}>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>学生成绩管理系统 · 课程设计汇报</Text>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>11 / 12</Text>
+  </Box>
+</Slide>

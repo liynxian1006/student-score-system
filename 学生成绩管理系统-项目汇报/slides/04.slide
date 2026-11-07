@@ -1,0 +1,45 @@
+<Slide style={{ padding: 60, fontFamily: '"Microsoft YaHei", Arial, sans-serif', background: '#FFFFFF' }}>
+  <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+    <Box style={{ width: 6, height: 34, background: '#2563EB', borderRadius: 3 }} />
+    <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#1E293B' }}>技术栈</Text>
+  </Box>
+  <Box style={{ width: '100%', height: 1, background: '#E2E8F0', marginTop: 16 }} />
+
+  <Box style={{ flexDirection: 'row', gap: 24, marginTop: 36, flex: 1 }}>
+    <Box style={{ flex: 1, background: '#EFF6FF', borderRadius: 12, padding: 26, border: '1px solid #BFDBFE' }}>
+      <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#2563EB' }}>前端</Text>
+      <Box style={{ marginTop: 16, gap: 12, flexDirection: 'column' }}>
+        <Text style={{ fontSize: 18, color: '#334155' }}>· Vue 3 + Vite 5</Text>
+        <Text style={{ fontSize: 18, color: '#334155' }}>· Element Plus（UI 组件）</Text>
+        <Text style={{ fontSize: 18, color: '#334155' }}>· Axios（接口请求）</Text>
+        <Text style={{ fontSize: 18, color: '#334155' }}>· Vue Router（路由）</Text>
+      </Box>
+    </Box>
+    <Box style={{ flex: 1, background: '#EFF6FF', borderRadius: 12, padding: 26, border: '1px solid #BFDBFE' }}>
+      <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#2563EB' }}>后端</Text>
+      <Box style={{ marginTop: 16, gap: 12, flexDirection: 'column' }}>
+        <Text style={{ fontSize: 18, color: '#334155' }}>· Spring Boot 3.2</Text>
+        <Text style={{ fontSize: 18, color: '#334155' }}>· MyBatis-Plus 3.5</Text>
+        <Text style={{ fontSize: 18, color: '#334155' }}>· RESTful 风格接口</Text>
+        <Text style={{ fontSize: 18, color: '#334155' }}>· 统一响应体 Result&lt;T&gt;</Text>
+      </Box>
+    </Box>
+    <Box style={{ flex: 1, background: '#EFF6FF', borderRadius: 12, padding: 26, border: '1px solid #BFDBFE' }}>
+      <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#2563EB' }}>数据存储</Text>
+      <Box style={{ marginTop: 16, gap: 12, flexDirection: 'column' }}>
+        <Text style={{ fontSize: 18, color: '#334155' }}>· MySQL 8.0</Text>
+        <Text style={{ fontSize: 18, color: '#334155' }}>· 库名 score_system</Text>
+        <Text style={{ fontSize: 18, color: '#334155' }}>· 三张核心表</Text>
+        <Text style={{ fontSize: 18, color: '#334155' }}>· 示例数据已初始化</Text>
+      </Box>
+    </Box>
+  </Box>
+  <Box style={{ background: '#1E293B', borderRadius: 10, padding: 18, marginTop: 28 }}>
+    <Text style={{ fontSize: 18, color: '#FFFFFF' }}>结论：前后端分离 + MyBatis-Plus，开发效率高、结构清晰，是当前主流 JavaWeb 技术组合。</Text>
+  </Box>
+
+  <Box style={{ position: 'absolute', bottom: 30, left: 60, right: 60, flexDirection: 'row', justifyContent: 'space-between' }}>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>学生成绩管理系统 · 课程设计汇报</Text>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>04 / 12</Text>
+  </Box>
+</Slide>

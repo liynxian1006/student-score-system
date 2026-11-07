@@ -1,0 +1,14 @@
+<Slide style={{ padding: 60, fontFamily: '"Microsoft YaHei", Arial, sans-serif', background: '#FFFFFF' }}>
+  <Box style={{ position: 'absolute', left: 0, top: 0, width: 14, height: '100%', background: '#2563EB' }} />
+  <Box style={{ height: '100%', justifyContent: 'center', paddingLeft: 48 }}>
+    <Text style={{ fontSize: 20, color: '#2563EB', fontWeight: 'bold', letterSpacing: 4 }}>课程设计汇报</Text>
+    <Text style={{ fontSize: 66, fontWeight: 'bold', color: '#1E293B', marginTop: 18 }}>学生成绩管理系统</Text>
+    <Text style={{ fontSize: 26, color: '#64748B', marginTop: 20 }}>基于 SpringBoot + Vue3 的前后端分离 Web 应用</Text>
+    <Box style={{ width: 120, height: 4, background: '#F59E0B', marginTop: 30, borderRadius: 2 }} />
+    <Box style={{ flexDirection: 'row', gap: 48, marginTop: 64 }}>
+      <Text style={{ fontSize: 16, color: '#94A3B8' }}>课程：JavaWeb 开发技术</Text>
+      <Text style={{ fontSize: 16, color: '#94A3B8' }}>日期：2026.11</Text>
+      <Text style={{ fontSize: 16, color: '#94A3B8' }}>汇报人：__________</Text>
+    </Box>
+  </Box>
+</Slide>

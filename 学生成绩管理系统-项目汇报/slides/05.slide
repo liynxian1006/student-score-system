@@ -1,0 +1,49 @@
+<Slide style={{ padding: 60, fontFamily: '"Microsoft YaHei", Arial, sans-serif', background: '#FFFFFF' }}>
+  <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+    <Box style={{ width: 6, height: 34, background: '#2563EB', borderRadius: 3 }} />
+    <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#1E293B' }}>系统架构（前后端分离）</Text>
+  </Box>
+  <Box style={{ width: '100%', height: 1, background: '#E2E8F0', marginTop: 16 }} />
+
+  <Box style={{ flex: 1, justifyContent: 'center', alignItems: 'center', marginTop: 10 }}>
+    <svg viewBox="0 0 1100 300" width="1100" height="300" style={{ maxWidth: '100%' }}>
+      <defs>
+        <marker id="arw" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+          <path d="M0,0 L8,3 L0,6 Z" fill="#94A3B8" />
+        </marker>
+      </defs>
+      <rect x="20" y="95" width="240" height="90" rx="10" fill="#2563EB" />
+      <text x="140" y="128" textAnchor="middle" fontSize="18" fill="#FFFFFF" fontWeight="bold">前端 Vue3</text>
+      <text x="140" y="152" textAnchor="middle" fontSize="15" fill="#DBEAFE">Vite + Element Plus</text>
+      <text x="140" y="174" textAnchor="middle" fontSize="15" fill="#DBEAFE">端口 5173</text>
+
+      <line x1="262" y1="140" x2="298" y2="140" stroke="#94A3B8" strokeWidth="2" markerEnd="url(#arw)" />
+
+      <rect x="300" y="95" width="170" height="90" rx="10" fill="#06B6D4" />
+      <text x="385" y="132" textAnchor="middle" fontSize="16" fill="#FFFFFF" fontWeight="bold">Axios 请求</text>
+      <text x="385" y="158" textAnchor="middle" fontSize="15" fill="#ECFEFF">RESTful API</text>
+
+      <line x1="472" y1="140" x2="508" y2="140" stroke="#94A3B8" strokeWidth="2" markerEnd="url(#arw)" />
+
+      <rect x="510" y="95" width="260" height="90" rx="10" fill="#2563EB" />
+      <text x="640" y="128" textAnchor="middle" fontSize="18" fill="#FFFFFF" fontWeight="bold">SpringBoot 3</text>
+      <text x="640" y="152" textAnchor="middle" fontSize="15" fill="#DBEAFE">MyBatis-Plus</text>
+      <text x="640" y="174" textAnchor="middle" fontSize="15" fill="#DBEAFE">端口 8080</text>
+
+      <line x1="772" y1="140" x2="808" y2="140" stroke="#94A3B8" strokeWidth="2" markerEnd="url(#arw)" />
+
+      <rect x="810" y="95" width="240" height="90" rx="10" fill="#1E3A5F" />
+      <text x="930" y="128" textAnchor="middle" fontSize="18" fill="#FFFFFF" fontWeight="bold">MySQL 8.0</text>
+      <text x="930" y="152" textAnchor="middle" fontSize="15" fill="#BFDBFE">score_system 库</text>
+      <text x="930" y="174" textAnchor="middle" fontSize="15" fill="#BFDBFE">持久化存储</text>
+    </svg>
+    <Text style={{ fontSize: 18, color: '#475569', marginTop: 10, textAlign: 'center', lineHeight: 1.5 }}>
+      浏览器中的 Vue 前端经 Axios 调用后端 REST 接口，后端由 MyBatis-Plus 操作 MySQL 完成持久化。
+    </Text>
+  </Box>
+
+  <Box style={{ position: 'absolute', bottom: 30, left: 60, right: 60, flexDirection: 'row', justifyContent: 'space-between' }}>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>学生成绩管理系统 · 课程设计汇报</Text>
+    <Text style={{ fontSize: 14, color: '#94A3B8' }}>05 / 12</Text>
+  </Box>
+</Slide>

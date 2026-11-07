@@ -1,0 +1,27 @@
+<Slide style={{ padding: 60, fontFamily: '"Microsoft YaHei", Arial, sans-serif', background: '#FFFFFF' }}>
+  <Box style={{ flexDirection: 'row', height: '100%' }}>
+    <Box style={{ width: 340, justifyContent: 'center' }}>
+      <Text style={{ fontSize: 18, color: '#2563EB', fontWeight: 'bold', letterSpacing: 4 }}>CONTENTS</Text>
+      <Text style={{ fontSize: 54, fontWeight: 'bold', color: '#1E293B', marginTop: 8 }}>目录</Text>
+      <Box style={{ width: 80, height: 4, background: '#F59E0B', marginTop: 18, borderRadius: 2 }} />
+    </Box>
+    <Box style={{ flex: 1, justifyContent: 'center', gap: 30, paddingLeft: 24 }}>
+      <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 24, borderBottom: '1px solid #E2E8F0', paddingBottom: 14 }}>
+        <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#2563EB' }}>01</Text>
+        <Text style={{ fontSize: 26, color: '#1E293B' }}>项目背景与选题</Text>
+      </Box>
+      <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 24, borderBottom: '1px solid #E2E8F0', paddingBottom: 14 }}>
+        <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#2563EB' }}>02</Text>
+        <Text style={{ fontSize: 26, color: '#1E293B' }}>技术架构与数据库设计</Text>
+      </Box>
+      <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 24, borderBottom: '1px solid #E2E8F0', paddingBottom: 14 }}>
+        <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#2563EB' }}>03</Text>
+        <Text style={{ fontSize: 26, color: '#1E293B' }}>功能模块与实现</Text>
+      </Box>
+      <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 24, borderBottom: '1px solid #E2E8F0', paddingBottom: 14 }}>
+        <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#2563EB' }}>04</Text>
+        <Text style={{ fontSize: 26, color: '#1E293B' }}>项目演示与总结</Text>
+      </Box>
+    </Box>
+  </Box>
+</Slide>
